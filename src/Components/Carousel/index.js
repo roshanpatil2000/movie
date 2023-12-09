@@ -35,15 +35,14 @@ function DarkVariantExample({data}) {
             alt={item.name} title={item.name} />
         
         <div className='carouselItemText'>
-            <div>Name :- {item.name}</div>
-            <div>Department :-  {item.known_for_department}</div>
+            <div>{item.name}</div>
         </div>
     </div>
    ) 
 })
     return (
       <div className='myCarWrap'>
-        <h2>Co-Star Informations</h2>
+        <h2>Crews</h2>
         <AliceCarousel 
         responsive={responsive}
         autoPlay={true}

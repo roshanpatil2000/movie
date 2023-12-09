@@ -24,16 +24,11 @@ const CardMoviesComponents = ({data,mediaType})=>{
                                 <circle className="circle-chart__background" stroke="#2f3439" strokeWidth="2" fill="none" cx="15" cy="15" r="14"></circle>
                                 <circle className="circle-chart__circle" stroke="#4eb04b" strokeWidth="2" strokeDasharray={`${vote_average}0,100`} cx="15" cy="15" r="14"></circle>
                             </svg>
-                            <b>{vote_average}</b> 
+                            <b>{vote_average}</b>
                         </div>
-                        <div className="hd">{media_type} 
-                        <b>{original_language}</b></div>
                     </figure>
                     <div className="video-content"> 
-                        <ul className="tags">
-                            <li>Release Date</li>
-                        </ul>
-                        <small className="range">{release_date}</small>
+
                         <h3 className="name">
                             {title}
                         </h3>

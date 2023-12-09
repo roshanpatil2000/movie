@@ -21,7 +21,7 @@ const  PopularMoviesContainer = ()=>{
     }
 
     useEffect(()=>{
-        console.log('Trending Component did mount');
+        // console.log('Trending Component did mount');
         GetDataTrending();
         //eslint-disable-next-line
     }, [])
@@ -30,7 +30,7 @@ const  PopularMoviesContainer = ()=>{
         setPageno(number);
     }
     useEffect(()=>{
-        console.log('Trending Component didupdate mount');
+        // console.log('Trending Component didupdate mount');
         GetDataTrending();
         //eslint-disable-next-line
     }, [pageno])
