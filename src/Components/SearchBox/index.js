@@ -28,7 +28,7 @@ const SearchBarCardComponents = ({searchValue, setSearchValue, typeValue, setTyp
                         </label>
                     </div>
                     <form onSubmit={handleSubmit}>
-                        <input type="search" value={searchValue} onChange={changeSearchHandle} placeholder="Search here" />
+                        <input type="search" value={searchValue} onChange={changeSearchHandle} placeholder="Enter Movie/ Tv name here tos search" />
                         <input type="submit"  value="FIND" />
                     </form>
                 </div>
